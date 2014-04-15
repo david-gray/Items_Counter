@@ -1,0 +1,39 @@
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditText
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:text="New Text"
+        android:layout_marginLeft="10px"
+        android:id="@+id/TextViewName" />
+
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:text="0"
+        android:id="@+id/TextViewCounter" />
+
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:text="+"
+        android:id="@+id/ButtonAddOne" />
+
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:text="-"
+        android:id="@+id/ButtonRemoveOne" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:text="Remove"
+        android:layout_marginRight="10px"
+        android:id="@+id/RemoveItem" />
+
+</LinearLayout>
